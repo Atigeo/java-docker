@@ -3,11 +3,11 @@
 # ---- Version Control ----
 
 FROM xpatterns/base
-ENV DOWNLOAD_LINK http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jre-7u79-linux-x64.tar.gz
+ENV DOWNLOAD_LINK http://download.oracle.com/otn-pub/java/jdk/7u79-b15/jdk-7u79-linux-x64.tar.gz
 
 # ---- Set Environmental Variables ----
 
-ENV JAVA_VERSION jre1.7.0_79
+ENV JAVA_VERSION jdk1.7.0_79
 ENV JRE_HOME /usr/lib/jvm/$JAVA_VERSION
 ENV JAVA_HOME /usr/lib/jvm/$JAVA_VERSION
 ENV PATH="$PATH:${JAVA_HOME}/bin"
